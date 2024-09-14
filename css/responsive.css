@@ -1,0 +1,366 @@
+/******************************MEDIA QUERIES***********************/
+@media (min-width:2280px) {
+    .container {
+        width: 2100px;
+    }
+}
+
+@media (min-width:1900px) {
+    .container {
+        width: 1700px;
+    }
+}
+
+@media (min-width:1600px) {
+    .container {
+        width: 1400px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .menu li a {
+        font-size: 14px;
+        padding: 35px 12px;
+    }
+    .brochure a {
+        padding: 14px 30px;
+        display: block;
+    }
+    .contact-one {
+        padding: 30px 0px;
+    }
+    .contact-one__content::after{
+        display: none;
+    }
+    .contact-one__content .sec-title__tagline {
+        padding: 20px 0 0 0;
+    }
+    .sticky .menu li a {
+        padding: 35px 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .menu li a {
+        font-size: 12px;
+        padding: 35px 10px;
+    }
+    .banner-text h1 {
+        font-size: 52px;
+    }
+    .sticky .menu li a {
+        padding: 35px 5px;
+        font-size: 11px;
+    }
+    .about-tabcontent {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        width: 950px !important;
+    }
+    .menu li a {
+        font-size: 9px;
+        padding: 44px 9px;
+    }
+    .work-process::before{
+        display: none;
+    }
+    .tech-use p {
+        padding: 0 40px;
+    }
+    .inner-banner p {
+        margin: 25% 0 20px 0;
+    }
+    .pricingTable .pricing-content ul li {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .menu {
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        background: #171837;
+        z-index: 9999999;
+        height: 100%;
+        width: 240px;
+        transition: all ease-in-out 0.2s;
+        -webkit-transition: all ease-in-out 0.2s;
+        -moz-transition: all ease-in-out 0.2s;
+        -ms-transition: all ease-in-out 0.2s;
+        -o-transition: all ease-in-out 0.2s;
+        overflow-y: auto;
+        padding-top: 30px;
+    }
+    .menu-toggle {
+        color: #000;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: right;
+        display:block;
+    }
+    .menu-toggle .fa {
+        /* position: absolute; */
+        /* top: 25px; */
+        /* right: 20px; */
+        color: #fff;
+        z-index: 999;
+        float: right;
+        padding-right: 70px;
+        z-index: 999;
+    }	
+    
+    .menu li {
+        display: inline-block;
+        width: 100%;
+        transition: all ease-in-out 0.2s;
+        -webkit-transition: all ease-in-out 0.2s;
+        -moz-transition: all ease-in-out 0.2s;
+        -ms-transition: all ease-in-out 0.2s;
+        -o-transition: all ease-in-out 0.2s;
+    }
+    .menu li a, .sticky .menu li a {
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+    .menu > li > ul {
+        display: none;
+        position: inherit;
+        background: #e1899b;
+        text-align: center;
+        border-radius: 0;
+        box-shadow: none;
+        width: 100%;
+    }
+    .menu > li > ul > li > a{
+        color: #fff;
+    }
+    .menu-toggle i {
+        color: #fff;
+        margin: 31px 0 0 0;
+    }
+    .banner-text h2 {
+        font-size: 27px;
+    }
+    .banner-text h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        width: auto !important;
+    }
+   
+    .main-header .site-btn {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .main-header .site-btn a {
+        padding: 12px 0px;
+    }
+    .top-header p, .top-header p a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header .site-btn {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .logo-area img {
+        width: 170px;
+    }
+    .process-each h4 {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .social-media{
+        display: none;
+    }
+    div#socials ul li {
+        display: inline-block;
+    }
+    div#socials ul {
+        text-align: center;
+    }
+    div#socials {
+        display: block;
+        position: inherit;
+    }
+    .social-media li a {
+        width: 48px;
+        height: 48px;
+        line-height: 50px;
+        margin: 0;
+    }
+    .theme-sec {
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .theme-sec h4 {
+        font-size: 16px;
+        padding: 0;
+        line-height: 28px;
+    }
+    
+    .footer-wrapper .logo-area img {
+        width: 230px;
+        margin: 0px auto 20px;
+    }
+    .foot-each {
+        text-align: center;
+    }
+    .foot-coninfo {
+        text-align: center;
+    }
+    .footer-wrapper .brochure {
+        margin: 20px 0;
+    }
+    .foot-coninfo p {
+        margin: 4% 0 0 0;
+    }
+    .enquiry-popup {
+        z-index: 99999999;
+    }
+    .offer-banner img {
+        width: 80%;
+    }
+    .offer-banner i {
+        left: 69%;
+        top: -7px;
+    }
+   
+}
+
+@media screen and (max-width: 675px) {
+    .video-wrapper video {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+    }
+    .banner-text h2 {
+        font-size: 17px;
+    }
+    .banner-text h1 {
+        font-size: 24px;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .banner-text .site-btn a {
+        padding: 16px 20px;
+        font-size: 12px;
+    }
+    .logo-area img {
+        margin: 6px 0 0 0;
+        width: 170px;
+    }
+    .about-txt h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .about-txt {
+        margin: 0;
+    }
+    .about-txt p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .about-txt .site-btn {
+        text-align: center;
+    }
+    .sticky .menu-toggle i {
+        margin: 31px 0 0 0;
+    }
+    .index-choose {
+        padding: 40px 10px 30px;
+    }
+    .index-choose h4 {
+        text-align: left;
+        font-size: 11px;
+    }
+    h4.about-head {
+        text-align: center;
+    }
+    .brochure a {
+        font-size: 12px;
+    }
+    .inner-banner {
+        height: 300px;
+        background-position: left;
+    }
+    .inner-banner p {
+        margin: 22% 0 20px 0;
+    }
+    .inner-banner h2 {
+        font-size: 46px;
+    }
+    .about-tabs.nav.nav-tabs.justify-content-center {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .about-tabs li.nav-item {
+        margin-bottom: 26px;
+    }
+    .about-tabcontent {
+        padding: 20px;
+        margin: 4% auto 0;
+        width: 100%;
+    }
+    .career-each h4 span {
+        margin-top: 7px;
+    }
+    .inner-con-form {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .main-header .site-btn a {
+        margin: 6px 0;
+        padding: 8px 0px;
+    }
+    .menu-toggle i {
+        color: #fff;
+        margin: 15px 0 0 0;
+    }
+    .top-header p, .top-header p a {
+        font-size: 8px;
+    }
+    .top-header {
+        /* background: #283b5c; */
+        padding: 4px 4px;
+    }
+    .banner-text {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .main-header .site-btn {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}
